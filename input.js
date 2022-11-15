@@ -33,6 +33,15 @@ const handleUserInput = function (key) {
   } else if (key === '\u0064') {
     // \u0064 maps to 'd' input
     connection.write("Move: right");
+  } else if (key === '\u0079') {
+    // \u0079 maps to 'y' input
+    connection.write("Say: YUM!");
+  } else if (key === '\u0068') {
+    // \u0068 maps to 'h' input
+    connection.write("Say: HI");
+  } else if (key === '\u0078') {
+    // \u0078 maps to 'x' input
+    connection.write("Say: SNAKES!");
   }
 };
 
